@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='./script.js' defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='container'>
+        <div data-nav class="mobile-nav">
+            <div data-nav class="mobile-links">
+                <a href='#'>Collections</a>
+                <a href='#'>Men</a>
+                <a href='#'>Women</a>
+                <a href='#'>About</a>
+                <a href='#'>Contact</a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class='left'>
+                <img data-menu src="./images/icon-menu.svg" alt="menu-btn">
+                <img data-close src="./images/icon-close.svg" alt="close-btn">
+                <a href="#">
+                    <img src="./images/logo.svg" alt="logo">
+                </a>
+                <div class='links'>
+                    <a href='#'>Collections</a>
+                    <a href='#'>Men</a>
+                    <a href='#'>Women</a>
+                    <a href='#'>About</a>
+                    <a href='#'>Contact</a>
+                </div>
+            </div>
+            <div class='right'>
+                <img src="./images/icon-cart.svg" alt="cart">
+                <img src="./images/image-avatar.png" alt="avatar">
+            </div>
+        </div>
+        <div class="body">
+            <div class='one'>
+                <img data-product src='./images/image-product-1.jpg' alt='product'>
+                <img data-previous src="./images/icon-previous.svg" alt="previous">
+                <img data-next src="./images/icon-next.svg" alt="next">
+                <div class="three">
+                    <img class="active thumbOne" data-thumb src="./images/image-product-1-thumbnail.jpg" alt="product-1">
+                    <img class="thumbTwo" data-thumb src="./images/image-product-2-thumbnail.jpg" alt="product-2">
+                    <img class="thumbThree" data-thumb src="./images/image-product-3-thumbnail.jpg" alt="product-3">
+                    <img class="thumbFour" data-thumb src="./images/image-product-4-thumbnail.jpg" alt="product-4">
+                </div>
+            </div>
+            <div class="two">
+                <h5>SNEAKER COMPANY</h5>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="price">
+                    <div><h2>$</h2><h2 data-price>0</h2><h2>.00</h2></div>
+                    <p>$250.00</p>
+                </div>
+                <div class="cart">
+                    <div>
+                        <img data-minus src='./images/icon-minus.svg' alt='minus'>
+                        <p data-number>0</p>
+                        <img data-plus src='./images/icon-plus.svg' alt='plus'>
+                    </div>
+                    <button><img src='./images/icon-cart2.svg' alt='cart'> Add to cart</button>
+                </div>
+            </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/BlakkyWeb">BlakkyWeb</a>.
+    </div>
+</body>
+</html>
